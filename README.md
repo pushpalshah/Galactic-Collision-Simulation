@@ -16,10 +16,10 @@ Unlike simple orbital models, these galaxies actually merge. This is achieved by
           -  Core Dynamics: Calculate the mutual attraction between the two galactic centers, including a friction coefficient to simulate orbital decay.  
           -  Stellar Dynamics: For every star, calculate the vector sum of acceleration from both galactic cores.  
           -  Update: Apply Euler integration to update velocities and positions based on a small time step $\Delta t$.
-  3. Phenomena Detection:
+  3. Phenomena Detection:  
           -  If Distance < Threshold:Trigger Tidal Bridge labels.
           -  If Time > Periapsis: Trigger Tidal Tail labels.
-  4. Visual Rendering: Layered scatter plotting to create a "glow" effect on a black background.
+  4. Visual Rendering: Layered scatter plotting to create a "glow" effect on a black background.  
 3. Simulation Flowchart
    ```mermaid 
    graph TD
